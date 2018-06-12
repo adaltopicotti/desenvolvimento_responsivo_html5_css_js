@@ -1,0 +1,45 @@
+/* Pseudo Classes */
+a:hover {
+  font-size: 25px;
+}
+
+div:hover {
+  background: red;
+}
+
+p:first-child {
+  border: 1px solid #000;
+}
+
+p:last-child {
+  border: 1px solid #f00;
+}
+
+p:nth-child(odd) {
+  background: blue;
+}
+
+p:nth-child(even) {
+  background: rgb(51, 255, 0);
+}
+
+/* Pseudo Elementos */
+p::first-letter {
+  font-size: 25px;
+}
+
+p::first-line {
+  font-size: 25px;
+}
+
+p::selection {
+  background: red;
+}
+
+h1::before {
+  content: '>'
+}
+
+h1::after {
+  content: '<'
+}

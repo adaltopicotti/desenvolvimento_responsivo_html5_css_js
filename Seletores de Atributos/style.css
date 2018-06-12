@@ -1,0 +1,25 @@
+/* seletor[atributo="valor"] */
+input[type="submit"] {
+  font-weight: bold;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  height: 20px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 2px solid #757575;
+}
+
+/* *= contém; |= inicio; $= final; ~= palavra inteira separada por espaço */
+label[class|="label"] {
+  border-left: 2px solid red;
+  padding-left: 5px;
+}
+
+
+/* Seletores de atributos são mais lentos que seletores normais */
