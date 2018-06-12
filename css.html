@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>O que é CSS?</title>
+    <style>
+      /* Seletor de tag */
+      body{
+        text-align: center;
+        background: rgba(170, 196, 57, 0.609);
+      }
+      h1{
+        background: white;
+        text-transform: uppercase;
+      }
+      /* Seletores agrupados */
+      h1, p{
+        border: 1px solid red;
+      }
+      /* Seletor aninhado */
+      div p{
+        color: white;
+      }
+
+      /* Seletor ID */
+      #lembrar{
+        width: 20px;
+        height: 20px;
+      }
+
+      /* Seletor Class */
+      .texto-especial{
+        font-size: 25px;
+      }
+      /* Seletor aninhado com class */
+      div .texto-especial{
+        text-align: left;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Eu sou um título H1</h1>
+    <p class="texto-especial">Eu sou um parágrafo</p>
+    <p>Eu sou outro parágrafo</p>
+    <div>
+      <p class="texto-especial">Eu sou um parágrafo dentro de um DIV</p>
+    </div>
+    <form>
+      <input type="text" name="" placeholder="Nome de usuário"><br>
+      <input type="password" name="" placeholder="Senha"><br>
+      <input type="checkbox" id="lembrar" value=""><label for="lembrar" class="texto-especial">Deseja lembrar de mim?</label><br>
+      <input type="submit" name="" value="Login">
+    </form>
+  </body>
+</html>
