@@ -1,5 +1,6 @@
 // Abstracts
 @import 'abstracts/_cores';
+@import 'abstracts/_breakpoints';
 
 // Base
 @import 'base/_normalize';
@@ -9,6 +10,7 @@
 // Layout
 @import 'layout/_cabecalho';
 @import 'layout/_rodape';
+@import 'layout/_container';
 
 // Compomentes
 @import 'components/_alinhamento-texto';

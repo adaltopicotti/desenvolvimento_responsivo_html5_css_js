@@ -5,12 +5,12 @@
   position: relative;
   overflow: hidden;
   margin: 0 -15px -25px -15px;
+  iframe {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }
 
-.mapa iframe {
-  width: 100% !important;
-  height: 100% !important;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
