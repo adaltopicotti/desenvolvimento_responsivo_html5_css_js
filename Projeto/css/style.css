@@ -326,7 +326,9 @@ body {
 /* Cabeçalho */
 .cabecalho {
   background: #fff;
-  padding: 15px; }
+  padding: 15px;
+  position: fixed;
+  width: 100%; }
 
 /* Rodape */
 .rodape {
