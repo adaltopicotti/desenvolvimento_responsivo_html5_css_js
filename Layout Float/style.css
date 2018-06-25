@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background: #f00;
+  float: left;
+  width: 200px;
+  padding: 20px;
+}
+main {
+  background: #00f;
+  margin-left: 200px;
+  padding: 20px;
+
+}
+footer {
+  background: #0f0;
+  text-align: center;
+  padding: 20px;
+}

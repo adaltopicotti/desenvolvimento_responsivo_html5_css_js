@@ -1,0 +1,11 @@
+div {
+    background: blue;
+    padding: 20px;
+    border: 2px solid rgb(13, 13, 184);
+    color: #fff;
+    float: left;
+}
+
+.clear {
+    clear: left;
+}
