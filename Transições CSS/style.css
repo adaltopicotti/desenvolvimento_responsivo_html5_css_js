@@ -1,0 +1,12 @@
+.teste {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(64, 115, 224);
+    color: #fff;
+    transition: all 1s ease-in-out;
+}
+
+.teste:hover {
+    background-color: rgb(12, 32, 77);
+    width: 500px;
+}
