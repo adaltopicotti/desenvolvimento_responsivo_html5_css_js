@@ -12,5 +12,14 @@
     top: 0;
     left: 0;
   }
+  @media(min-width: 450px) {
+    padding-bottom: 60%;
+  }
+  @media(min-width: $breakpoint-md) {
+    padding-bottom: 40%;
+  }
+  @media(min-width: $breakpoint-lg) {
+    padding-bottom: 25%;
+  }
 }
 
