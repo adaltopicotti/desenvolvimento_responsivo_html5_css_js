@@ -483,6 +483,11 @@ body {
     display: block;
     margin: 0 auto;
     font-weight: bold; }
+  .formulario label.error {
+    border-left: 4px solid #f44242;
+    padding-left: 4px;
+    color: #f44242;
+    margin-left: 3px; }
   @media (min-width: 768px) {
     .formulario {
       padding-bottom: 0; }
