@@ -463,6 +463,18 @@ body {
   padding: 40px 15px 40px 15px;
   box-shadow: 0 3px 5px #989898;
   margin: 80px 0; }
+  .formulario__erro {
+    background: rgba(243, 6, 6, 0.72);
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px; }
+  .formulario__sucesso {
+    background: rgba(17, 154, 4, 0.85);
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px; }
   .formulario__campo {
     width: 100%;
     border: 1px solid #c4c4c4;
