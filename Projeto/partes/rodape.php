@@ -30,10 +30,11 @@
         &copy; <?php echo date('Y') ?> - Todos os direitos reservados - Adalto Picotti
       </div>
     </footer>
-    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/main.js"></script> -->
+    <script src="js/app.min.js"></script>
   </body>
 </html>

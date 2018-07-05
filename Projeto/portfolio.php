@@ -18,7 +18,7 @@
         <nav>
           <ul class="lista-trabalhos">
             <li class="lista-trabalhos__item">
-              <a class="gallery" href="img/portfolio/aircraft-2806035_1280.jpg">
+              <a data-fancybox="gallery" href="img/portfolio/aircraft-2806035_1280.jpg">
                 <img class="lista-trabalhos__img" src="img/portfolio/miniaturas/aircraft-2806035_min.jpg" alt="">
                 <h2 class="lista-trabalhos__titulo">Aircraft</h2>
               </a>
@@ -48,7 +48,7 @@
               </a>
             </li>
             <li class="lista-trabalhos__item">
-              <a data-fancybox="gallery" href="img/portfolio/town-2430571_1280.jpg">
+              <a data-fancybox="gallery" href="img/portfolio/town-2430571_1920.jpg">
                 <img class="lista-trabalhos__img" src="img/portfolio/miniaturas/town-2430571_min.jpg" alt="">
                 <h2 class="lista-trabalhos__titulo">Town</h2>
               </a>
